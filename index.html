@@ -11,12 +11,12 @@
 
   <div id="react-container"></div>
 
-  <script type="text/babel">
+  <script type="text/jsx">
 
     var MyComponent = React.createClass({
       render: function() {
         return <div>
-            <h1>{this.pros.text}</h1>
+            <h1>{this.props.text}</h1>
             <p></p>
           </div>;
       }
